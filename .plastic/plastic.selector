@@ -1,4 +1,0 @@
-repository "AdventureWorld@Spite@cloud"
-  path "/"
-    br "/main"
-    co "/main"
