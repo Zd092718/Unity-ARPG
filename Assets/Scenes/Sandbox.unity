@@ -1693,6 +1693,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 630063114}
     m_Modifications:
+    - target: {fileID: 90554578554641203, guid: 888fe92e539dd434ba571673d543376e, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: d9d82da041178114f8c75b80d4a9e068, type: 2}
     - target: {fileID: 456555555573515441, guid: 888fe92e539dd434ba571673d543376e, type: 3}
       propertyPath: m_Name
       value: Mini Boss
@@ -2026,6 +2030,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 630063114}
     m_Modifications:
+    - target: {fileID: 90554578554641203, guid: 888fe92e539dd434ba571673d543376e, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: d9d82da041178114f8c75b80d4a9e068, type: 2}
     - target: {fileID: 456555555573515441, guid: 888fe92e539dd434ba571673d543376e, type: 3}
       propertyPath: m_Name
       value: Mini mini boss
