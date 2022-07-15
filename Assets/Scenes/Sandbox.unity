@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 0512b59db83ad324786f2c2f6f0e1d2f, type: 2}
---- !u!4 &5276198 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6062785958300344228, guid: e29b50f87b9b51d4090aa763f1fc9492, type: 3}
-  m_PrefabInstance: {fileID: 2029506845194363284}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7766417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9187,71 +9182,6 @@ Transform:
   m_Father: {fileID: 1803973040}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1339735122559300056
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.987665
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.0020494
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -44.1114
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.6769447
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.004608999
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7360177
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.0016140041
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -179.686
-      objectReference: {fileID: 0}
-    - target: {fileID: 7065023214985455660, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8738154469591830433, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 5276198}
-    - target: {fileID: 8738154469591830433, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: projectileSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8900640487958982548, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
-      propertyPath: m_Name
-      value: ArrowProjectile
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c12e300597cdf3c4880e1ff2433a1b21, type: 3}
 --- !u!1001 &2029506845194363284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9266,7 +9196,7 @@ PrefabInstance:
     - target: {fileID: 1795240036526324133, guid: e29b50f87b9b51d4090aa763f1fc9492, type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: 243e4f5913cc7d54bbd463b975742674, type: 2}
+      objectReference: {fileID: 11400000, guid: 33aec1237faa1ac4883ab482a2a28f1c, type: 2}
     - target: {fileID: 1795240036526324133, guid: e29b50f87b9b51d4090aa763f1fc9492, type: 3}
       propertyPath: weaponOverride
       value: 
@@ -9447,6 +9377,10 @@ PrefabInstance:
     - target: {fileID: 3149426163063245439, guid: 42bda8dc3b9ff674695802f2f6337d47, type: 3}
       propertyPath: m_Name
       value: Bow Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149426163063245439, guid: 42bda8dc3b9ff674695802f2f6337d47, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42bda8dc3b9ff674695802f2f6337d47, type: 3}
