@@ -10,13 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 3149426163063245438}
   - component: {fileID: 5407990936625904393}
+  - component: {fileID: 1501732833}
   m_Layer: 0
   m_Name: Bow Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3149426163063245438
 Transform:
   m_ObjectHideFlags: 0
@@ -46,6 +47,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.79
   m_Center: {x: 0, y: 0, z: -0.81}
+--- !u!114 &1501732833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3149426163063245439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd0fe55f536a1c4ab086723a9f07064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 11400000, guid: 243e4f5913cc7d54bbd463b975742674, type: 2}
 --- !u!1001 &5295334933732906655
 PrefabInstance:
   m_ObjectHideFlags: 0
