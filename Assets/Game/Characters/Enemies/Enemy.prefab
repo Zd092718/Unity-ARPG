@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cedd3375b33a4454d8723556c2e73ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseDistance: 5
+  chaseDistance: 8
   suspicionTime: 3
   patrolPath: {fileID: 0}
   waypointTolerance: 2

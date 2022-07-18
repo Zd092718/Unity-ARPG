@@ -414,6 +414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fireball Pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 534854672196858708, guid: ab340c283852c0e4ab30be3ad2a17e36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 534854672196858711, guid: ab340c283852c0e4ab30be3ad2a17e36, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7743,7 +7747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8443295141156151640, guid: af03acd6316aac646af307644ee20da2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8443295141156151643, guid: af03acd6316aac646af307644ee20da2, type: 3}
       propertyPath: m_RootOrder
