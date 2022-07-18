@@ -7566,6 +7566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Archer (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1472461691740526730, guid: c49ae17e061dab14cbdf60373900d384, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 243e4f5913cc7d54bbd463b975742674, type: 2}
     - target: {fileID: 2612136245068450549, guid: c49ae17e061dab14cbdf60373900d384, type: 3}
       propertyPath: healthPoints
       value: 15
@@ -7574,6 +7578,10 @@ PrefabInstance:
       propertyPath: patrolPath
       value: 
       objectReference: {fileID: 462452103}
+    - target: {fileID: 4524154226388035857, guid: c49ae17e061dab14cbdf60373900d384, type: 3}
+      propertyPath: chaseDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6387673151350947467, guid: c49ae17e061dab14cbdf60373900d384, type: 3}
       propertyPath: m_RootOrder
       value: 9

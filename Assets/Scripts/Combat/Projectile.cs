@@ -10,13 +10,21 @@ public class Projectile : MonoBehaviour
     Health target = null;
     float damage = 0f;
 
+    [SerializeField] bool isHoming = false;
+
+    private void Start()
+    {
+        transform.LookAt(GetAimLocation());
+    }
 
     // Update is called once per frame
     void Update()
     {
         if (target == null) return;
-
-        transform.LookAt(GetAimLocation());
+        if (isHoming && !target.IsDead())
+        {
+            transform.LookAt(GetAimLocation());
+        }
         transform.Translate(Vector3.forward * projectileSpeed * Time.deltaTime);
     }
 
@@ -42,7 +50,10 @@ public class Projectile : MonoBehaviour
         {
             return;
         }
-
+        if (target.IsDead())
+        {
+            return;
+        }
         target.TakeDamage(damage);
         Destroy(gameObject);
     }
