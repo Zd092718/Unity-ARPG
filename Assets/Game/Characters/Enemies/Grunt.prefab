@@ -130,6 +130,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2627798825018923544, guid: 4d8c843d4ec85b54cac4cdd69a98ae3e, type: 3}
+      propertyPath: characterClass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5212450572827171597, guid: 4d8c843d4ec85b54cac4cdd69a98ae3e, type: 3}
       propertyPath: m_Height
       value: 1.9155914
@@ -148,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7583395718239226437, guid: 4d8c843d4ec85b54cac4cdd69a98ae3e, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Grunt
       objectReference: {fileID: 0}
     - target: {fileID: 7938181522067428807, guid: 4d8c843d4ec85b54cac4cdd69a98ae3e, type: 3}
       propertyPath: weapon
