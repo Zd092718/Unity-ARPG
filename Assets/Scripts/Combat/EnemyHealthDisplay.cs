@@ -17,6 +17,7 @@ namespace RPG.Combat
             if (fighter.GetTarget() == null)
             {
                 enemyHealthText.text = "N/A";
+                return;
             }
             Health health = fighter.GetTarget();
             enemyHealthText.text = string.Format("{0}%", Mathf.RoundToInt(health.GetPercentage()));
